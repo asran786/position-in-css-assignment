@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 5 equal-sized</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+ .box{
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+ }
+ .box-center{
+    background-color: aqua;
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    left: 49px;
+    top: 50px;
+ 
+ }
+ .main-container{
+    border: 2px solid black;
+    height: 150px;
+   width: 150px;
+    position: relative;
+ }
+
+.box-B{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    
+    
+}
+.box-C{
+    position: absolute;
+    right: -80px;
+    bottom: 0px;
+}
+.box-D{
+    position: absolute;
+    bottom: -80px;
+    left: 0px;
+
+}
+.box-E{
+    position: absolute;
+    right: -80px;
+    top: 80px;
+}
+</style>
+<body>
+ <div style="display: flex; justify-content: center; align-items: center; height: 90vh;">
+    <div class="main-container">
+        <div class="box-center">
+            <h1>A</h1>
+        </div>
+        <div class="box-B box">
+            <h1>B</h1>
+        </di>
+        <div class="box-C box">
+            <h1>C</h1>
+        </div>
+        <div class="box-D box">
+<h1>D</h1>
+        </div>
+        <div class="box-E box">
+<h1>E</h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>

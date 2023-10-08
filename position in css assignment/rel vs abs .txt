@@ -1,0 +1,7 @@
+relative vs absolute position
+
+Relative positioning,
+ as the name suggests, positions elements relative to their normal position in the document flow. This means that when you apply relative positioning to an element, you can use properties like top, right, bottom, and left to offset it from its default position. 
+
+absolute positioning,
+it takes an element out of the normal document flow entirely. Elements with absolute positioning are positioned relative to their nearest ancestor element with a positioning property other than static (such as relative, absolute, or fixed).
